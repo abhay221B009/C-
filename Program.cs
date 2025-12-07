@@ -132,6 +132,22 @@ Very fast, but less safe
       {
         Console.WriteLine(k);
       }
+
+    
+
+
+
+    //==================================================
+    //ACCEPTING USER INPUT
+    Console.WriteLine("Enter your name: ");
+    string youname = Console.ReadLine();//main line
+     
+
+    Console.WriteLine("Enter your age: ");
+    int yourage = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("hello " + youname + "!");
+    Console.WriteLine("You are " + yourage + " years old!");
     }
+
     }
 } 
