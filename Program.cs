@@ -102,6 +102,22 @@ Very fast, but less safe
       Console.WriteLine("Integer value: " + i); 
       Console.WriteLine(d.GetType());     
       Console.WriteLine(i.GetType());
+      
+      int c = 123;
+      double e = Convert.ToDouble(c)+0.1;
+      Console.WriteLine("Integer value: " + c);
+      Console.WriteLine("Double value: " + e);
+
+      //integer to string
+
+    int f = 321;
+    string g = Convert.ToString(f);
+    Console.WriteLine(f.GetType());
+   
+    Console.WriteLine("Integer value: " + f);
+
+     Console.WriteLine(g.GetType()); 
+    Console.WriteLine("String value: " + g);
     }
     }
 } 
