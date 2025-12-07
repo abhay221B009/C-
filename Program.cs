@@ -1,11 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+
+//to start this program uncomment replace secondmain with Main
 using System;
 namespace App1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void secondmain(string[] args)
     { 
       Console.Write("\nHey!");
       Console.WriteLine("Hello, World!");
@@ -145,6 +147,8 @@ Very fast, but less safe
 
     Console.WriteLine("Enter your age: ");
     int yourage = Convert.ToInt32(Console.ReadLine());
+    // IF THE USER ENTERS A NON-INTEGER VALUE THEN IT WILL GIVE AN ERROR.
+    // Unhandled exception. System.FormatException: The input string 'pizzA' was not in a correct format.
     Console.WriteLine("hello " + youname + "!");
     Console.WriteLine("You are " + yourage + " years old!");
     }
