@@ -118,6 +118,20 @@ Very fast, but less safe
 
      Console.WriteLine(g.GetType()); 
     Console.WriteLine("String value: " + g);
+
+
+    //string to char
+
+    string h = "hello";
+    char j = Convert.ToChar(h[0]);//if i want to convert any one char from the string to be converted but if i want to convert the whole string then i have to convert it into a char array.
+    char[] arr = h.ToCharArray();
+    Console.WriteLine("String value: " + h);  
+    Console.WriteLine("Character value: " + j);
+    Console.WriteLine("below is the char array: ");
+    foreach(char k in arr)
+      {
+        Console.WriteLine(k);
+      }
     }
     }
 } 
