@@ -3,7 +3,7 @@ namespace App1
 {
   class StringMethod
 {
-  static void Main(string[]args)
+  static void Main4(string[]args)
   {
     string fullName = "Abhay Raj Chauhan";
     string phoneNumber = "-6386088195";
