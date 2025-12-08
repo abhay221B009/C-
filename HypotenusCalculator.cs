@@ -3,7 +3,7 @@ namespace App1
 {
   class HypotenusCalculator
   {
-    static void Main(string[] args)
+    static void Main3(string[] args)
     {
        Console.WriteLine("Enter side A: ");
        double A = Convert.ToDouble(Console.ReadLine());
