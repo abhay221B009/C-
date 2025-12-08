@@ -4,7 +4,7 @@ namespace App1
 {
 class BsicArithmetic
   {
-    static void Main(string[] args)
+    static void /*basicmath*/Main22(string[] args)
     {
       int friends = 10;
       Console.WriteLine(friends);
@@ -62,6 +62,16 @@ class BsicArithmetic
 
       double k = Math.Min(d,g);
       Console.WriteLine("minimum between d and g is: "+k);
+
+
+      //RANDOM NUMBERS
+      
+      
+      Random random = new Random();
+      random.Next(1, 101); //random number between 1 and 100
+      double num = random.NextDouble(); //random number between 0.0 and 1.0
+      Console.WriteLine("random number between 1 and 100: "+ random);
+      Console.WriteLine("random number between 0.0 and 1.0: "+ num);
 
 
 
