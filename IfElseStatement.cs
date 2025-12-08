@@ -3,7 +3,7 @@ namespace App1
 {
   class IfElseStatement
   {
-    public static void Main(string[] args)
+    public static void Main5(string[] args)
     {
       Console.WriteLine("Enter your age: ");
       int age = Convert.ToInt32(Console.ReadLine());
