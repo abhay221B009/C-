@@ -3,7 +3,7 @@ namespace App1
 {
     class RockPaperScissor
     {
-        public static void Main(string[] args)
+        public static void Main11(string[] args)
         {
             Random random = new Random();
             bool playAgain = true;
