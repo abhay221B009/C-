@@ -3,7 +3,7 @@ namespace App1
 {
   class Params
   {
-    public static void Main(string[]args)
+    public static void Main17(string[]args)
     {
       //Params keyword  = a method that takes a variable number of arguments .
       //The params type must be a single-dimensional array.
