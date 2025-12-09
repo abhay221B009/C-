@@ -7,6 +7,9 @@ namespace App1
     {
       Console.WriteLine("CALCULATOR");
 
+      string answer = "yes";
+      do{
+
       double num1=0, num2=0, result=0;
       Console.WriteLine("Enter first number: ");
       num1= Convert.ToDouble(Console.ReadLine());
@@ -46,6 +49,14 @@ namespace App1
         Console.WriteLine("Invalid operator");
           break;
       }
+      Console.WriteLine("Do you want to perform another calculation? (yes/no): ");
+      answer = Console.ReadLine().ToLower();
+      if(answer != "yes")
+      {
+        Console.WriteLine("Thanks for using the calculator!");
+        break;
+      }
+      }while(answer == "yes");
     }
   }
 }
