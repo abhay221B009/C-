@@ -3,7 +3,7 @@ namespace App1
 {
     class switches
     {
-        public static void Main(string[] args)
+        public static void Main6(string[] args)
         {
             Console.WriteLine("What day is today? ");
             string day = Console.ReadLine();
