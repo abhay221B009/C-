@@ -3,7 +3,7 @@ namespace App1
 {
   class NumberGuessing
   {
-    public static void Main(string[] args)
+    public static void Main10(string[] args)
     {
       Random random = new Random();
       bool playAgain = true;
