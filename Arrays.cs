@@ -3,7 +3,7 @@ namespace App1
 {
   class Arrays
   {
-    public static void Main(string[]args)
+    public static void Main13(string[]args)
     {
       //string[] cars = {"BMW","AUDI","FORD","TOYOTS"};
       string[] cars = new string [4];
