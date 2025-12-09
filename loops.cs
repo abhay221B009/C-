@@ -3,7 +3,7 @@ namespace App1
 {
   class loops
   {
-    public static void Main(string[] args)
+    public static void Main9(string[] args)
     {
       string name = "";
 
