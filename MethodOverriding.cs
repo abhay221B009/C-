@@ -3,7 +3,7 @@ namespace App1
 {
   class MethodOverriding
   {
-    public static void Main(string[]args)
+    public static void Main15(string[]args)
     {
       double total =  Multiply(4,3);
       Console.WriteLine("The multiplication of x  and y is : "+total);
