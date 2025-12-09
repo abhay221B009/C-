@@ -40,6 +40,11 @@ namespace App1
       {
         Console.WriteLine("something went wrong.  "+e.Message);        
       }
+      finally
+      {
+        Console.WriteLine("thanks for using division calculator");
+      }
+
 
 
       
