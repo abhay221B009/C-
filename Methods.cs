@@ -3,7 +3,7 @@ namespace App1
 {
   class Methods
   {
-    public static void Main(string[]args)
+    public static void Main14(string[]args)
     {
       string name = "alice";
       int age = 23;
@@ -14,7 +14,7 @@ namespace App1
 
       double x , y , result;
       Console.WriteLine("Enter first number to multiply: ");
-      
+
       x= Convert.ToDouble(Console.ReadLine());
 
       Console.WriteLine("Enter second number to multiply: ");
