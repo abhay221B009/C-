@@ -3,7 +3,7 @@ namespace App1
 {
   class Calculator
   {
-    public static void Main(string[]args)
+    public static void Main12(string[]args)
     {
       Console.WriteLine("CALCULATOR");
 
