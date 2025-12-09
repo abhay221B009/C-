@@ -3,7 +3,7 @@ namespace App1
 {
   class Exceptions
   {
-    static void Main(string[]args)
+    static void Main16(string[]args)
     {
 
       //Exception handling:
