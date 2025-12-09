@@ -3,7 +3,7 @@ namespace App1
 {
   class Conditional
   {
-    static void Main(string[]args)
+    static void Main17(string[]args)
     {
       //conditional operator = used in conditional statement if a condition is true/false.
       //(condition)? x:y
