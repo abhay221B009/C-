@@ -3,7 +3,7 @@ namespace App1
 {
   class logicalOperators
   {
-    public static void Main(string[] args)
+    public static void Main7(string[] args)
     {
       Console.WriteLine("Whats the temperature (C)outside?");
 
