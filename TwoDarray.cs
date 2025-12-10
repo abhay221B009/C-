@@ -15,6 +15,7 @@ namespace App1
       {
         Console.WriteLine(car);        
       }
+    parkinglot[0,2]="Fusion";
 
 
       Console.WriteLine("\nanother method to print cars in parking lot\n");
