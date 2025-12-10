@@ -3,7 +3,7 @@ namespace App1
 {
   class StringInterpolation
   {
-    static void Main(string[]args)
+    static void Main18(string[]args)
     {
 
       //string interpolation  = allows us to insert variables into a string literal precede a string literal with $, {} are placeholder
