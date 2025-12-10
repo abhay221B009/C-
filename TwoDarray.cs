@@ -3,7 +3,7 @@ namespace App1
 {
   class TwoDarray
   {
-    static void Main(string[] args)
+    static void Main15(string[] args)
     {
       string[] ford = {"mustang","f-150","explorer"};
       string[] chevy =  {"corvette","camaro","silverado"};
