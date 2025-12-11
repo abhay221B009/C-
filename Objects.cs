@@ -3,7 +3,7 @@ namespace App1
 {
   class objects
   {
-    static void Main(string[]args)
+    static void Main11(string[]args)
     {
       /*Objects: An instance of a class
                  A class can be used as a blurprint to create objects(OOP).
