@@ -1,10 +1,10 @@
-using System;
+/*using System;
 
 namespace App1
 {
     class AbstractDemo
     {
-        static void Main(string[] args)
+        static void Main32(string[] args)
         {
             Car car = new Car();
             Cycle cycle = new Cycle();
@@ -51,3 +51,4 @@ namespace App1
         int maxSpeed = 80;
     }
 }
+*/
