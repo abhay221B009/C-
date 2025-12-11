@@ -3,7 +3,7 @@
 {
   class Overloading
   {
-    static void Main(string[]args)
+    static void Main32(string[]args)
     {
       //overloading constructors: techinique to create multiple constructors with a different set of parameters name + parameters = signature
       pizza pizza1 = new pizza("stuffed crust","red-sauce","mozerella","pepperoni");
