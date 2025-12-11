@@ -3,7 +3,7 @@ namespace App1
 {
   class animal
   {
-    static void Main(string[] args)
+    static void Main12(string[] args)
     {
       janwar janwar1 = new janwar("khatarnak");
       janwar janwar2 = new janwar("Bahot-khatarnak");
