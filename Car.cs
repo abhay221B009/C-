@@ -3,7 +3,7 @@ namespace App1
 {
   class Car
   {
-    static void Main(string[]args)
+    static void Main22(string[]args)
     {
       carvan car1 = new carvan("ford","mustang",2022,"red");
 
