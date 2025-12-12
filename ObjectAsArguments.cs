@@ -3,7 +3,7 @@ namespace App1
 {
   class ObjectAsArguments
   {
-    static void Main(string[] args)
+    static void Main12(string[] args)
     {
       Car car1 = new Car("Mustang","Red"); 
       System.Console.WriteLine($" color and model of your car us {car1.color} and {car1.model}");  
